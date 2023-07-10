@@ -1,0 +1,7 @@
+echo "\n️ Destroying Kubernetes cluster...\n"
+
+minikube stop --profile polar
+
+minikube delete --profile polar
+
+echo "\n️ Cluster destroyed\n"
